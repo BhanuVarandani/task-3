@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    background-image: url(https://media.istockphoto.com/id/1468373591/photo/exploding-colours-of-dust-and-powder-on-a-dark-background.jpg?s=2048x2048&w=is&k=20&c=61ErlHjPG9Qy1YsTsEJOZXgJUl5eZd7Y_5NIQIuLaww=);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.box1{
+    height: 75%;
+    width: 55%;
+    background-color: rgb(144, 122, 122);
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+    border-radius: 25px;
+}
+.box2{
+    height: 90%;
+    width: 91%;
+    background-color: rgb(188, 177, 164);
+    display: flex;
+    align-items: start;
+
+    position: relative;
+}
+.box3{
+    height: 91%;
+    width: 65%;
+    margin-top: 0;
+    padding-top: 0%;
+    position: absolute;
+    background-color: rgb(169, 151, 128);
+    right: 0;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+.button1{
+    position: absolute;
+    margin-top: 17%;
+    padding: 2px 12px;
+    border-radius: 10px;
+    background-color: rgb(106, 106, 226);
+}
+.button2{
+    position: absolute;
+    margin-top: 17%;
+    left: 13%;
+    padding: 2px 12px;
+    border-radius: 10px;
+    background-color:rgb(104, 104, 252);
+}
+.button3{
+    position: absolute;
+    display: flex;
+    margin-top: 27%;
+    left: 0%;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.button4{
+    position: absolute;
+    display: flex;
+    margin-top:27%;
+    left: 23%;
+    border-radius: 4px;
+}
+.img1{
+    position: absolute;
+    margin-top: 20%;
+    left: 0%;
+    height: 65px;
+    width: 70px;
+    object-fit: cover;
+    
+}
+.img2{
+    position: absolute;
+    margin-top: 30%;
+    left: 0;
+    height: 70px;
+    object-fit: cover;
+
+}
+.img3{
+    position: absolute;
+    margin-top: 40%;
+    left: 0;
+    height: 65px;
+    width: 70px;
+    object-fit: cover;
+}
+.img4{
+    position: absolute;
+    margin-top: 50%;
+    left: 0;
+    height: 80px;
+    object-fit: cover;
+}
+h1{
+    position: absolute;
+    display: flex;
+    margin-top: 21%;
+    font-size: 18px;
+    left: 11%;
+}
+.short1{
+    position: absolute;
+    margin-top: 24%;
+    font-size: 10px;
+}
+h2{
+    position: absolute;
+    display: flex;
+    margin-top: 30%;
+    font-size: 18px;
+    left: 11%;
+}
+.short2{
+    position: absolute;
+    display: flex;
+    margin-top: 34%;
+    font-size: 10px;
+}
+h3{
+    position: absolute;
+    display: flex;
+    margin-top: 40%;
+    font-size: 18px;
+    left: 11%;
+}
+.short3{
+    position: absolute;
+    display: flex;
+    margin-top: 44%;
+    font-size: 10px;
+}
+h4{
+    position: absolute;
+    display: flex;
+    margin-top: 50%;
+    font-size: 18px;
+    left: 11%;
+}
+.short4{
+    position: absolute;
+    display: flex;
+    margin-top: 54%;
+    font-size: 10px;
+    left: 11%;
+}
+.box3>h1{
+    display: flex;
+    margin-top: 7%;
+    left: 2%;
+    font-family: serif;
+}
+.box3>.img1{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 15%;
+    left: 3%;
+    object-fit: cover;
+    
+}
+.box3>.img2{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 15%;
+    left: 33%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box3>.img3{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 15%;
+    left: 60%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box3>.img4{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 50%;
+    left: 3%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box3>.img5{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 50%;
+    left: 33%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box3>.img6{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 50%;
+    left: 60%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box3>.heading1{
+    position: absolute;
+    display: flex;
+     margin-top: 37%;
+     font-size: 15px;
+     color: white;
+     left: 4%;
+  
+}
+.box3>.heading2{
+    position: absolute;
+    display: flex;
+    left: 38%;
+    margin-top: 37%;
+    font-size: 15px;
+    color: white;
+}
+.box3>.heading3{
+     position: absolute;
+     display: flex;
+     margin-top: 37%;
+     left: 65%;
+     font-size: 15px;
+     color: white;
+}
+.box3>.heading4{
+    position: absolute;
+    display: flex;
+    margin-top: 72%;
+    left: 4%;
+    font-size: 15px;
+    color: white;
+}
+.box3>.heading5{
+    position: absolute;
+    display: flex;
+    margin-top: 72%;
+    left: 38%;
+    font-size: 15px;
+    color: white;
+}
+.box3>.heading6{
+    position: absolute;
+    display: flex;
+    margin-top: 72%;
+    left: 65%;
+    font-size: 15px;
+    color: white;
+}
+.box3>.search{
+    position: absolute;
+    display: flex;
+    left: 15%;
+    padding: 5px 45px;
+    border-radius: 10px;
+    border: none;
+}
+.box3>.search2{
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+}
+.box3>.search3{
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+}
+.box3>.search4{
+    position: absolute;
+    left: 80%;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    
+}
